@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/transporte_karla"
+    tools:context=".Transporte">
+
+    <TextView
+        android:id="@+id/reportestransporte"
+        android:layout_width="123dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="290dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginEnd="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="205dp"
+        android:layout_marginBottom="30dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/cardenas"
+                android:layout_width="264dp"
+                android:layout_height="126dp"
+                android:layout_marginTop="10dp"
+                android:adjustViewBounds="true"
+                android:clickable="true"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/cardenas" />
+
+            <ImageButton
+                android:id="@+id/comalcalco"
+                android:layout_width="264dp"
+                android:layout_height="126dp"
+                android:layout_marginTop="10dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/comalcalco"
+                android:clickable="true"
+                android:scaleType="centerInside" />
+
+            <ImageButton
+                android:id="@+id/cunduacan"
+                android:layout_width="264dp"
+
+                android:layout_height="126dp"
+                android:layout_marginTop="10dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/cunduacan"
+                android:clickable="true"
+                android:scaleType="centerInside" />
+
+            <ImageButton
+                android:id="@+id/paraiso"
+                android:layout_width="264dp"
+
+                android:layout_height="126dp"
+                android:layout_marginTop="10dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/paraiso"
+                android:clickable="true"
+                android:scaleType="centerInside" />
+
+            <ImageButton
+                android:id="@+id/jalpa"
+                android:layout_width="264dp"
+                android:layout_height="126dp"
+                android:layout_marginTop="10dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/jalpa"
+                android:clickable="true"
+                android:scaleType="centerInside" />
+
+            <ImageButton
+                android:id="@+id/villahermosa"
+                android:layout_width="264dp"
+                android:layout_height="126dp"
+                android:layout_marginTop="10dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/villahermosa"
+                android:clickable="true"
+                android:scaleType="centerInside" />
+
+            <ImageButton
+                android:id="@+id/juchi"
+                android:layout_width="264dp"
+                android:layout_height="126dp"
+                android:layout_marginTop="10dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/juchibus"
+                android:clickable="true"
+                android:scaleType="centerInside" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
