@@ -70,7 +70,7 @@ class pag_ticket : AppCompatActivity() {
 
             // Configurar los Spinners para seleccionar el destino y la salida
             val destinoSpinner: Spinner = view.findViewById(R.id.spinnerDestino)
-            val salidaSpinner: Spinner = view.findViewById(R.id.spinnerSalida)
+            val salidaSpinner: Spinner = view.findViewById(R.id.spinnerSalida )
 
             // Configurar los datos para los Spinners
             val destinos = arrayOf("Cárdenas", "Comalcalco", "Cunduacán", "Paraíso", "Jalpa")
