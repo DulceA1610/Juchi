@@ -92,7 +92,7 @@ class pag_ticket : AppCompatActivity() {
                     // Cuando el usuario elige una opción, actualizar el TextView
                     destino.text = destinoSpinner.selectedItem.toString()
                     salida.text = salidaSpinner.selectedItem.toString()
-                    dialog.dismiss() 
+                    dialog.dismiss()
                 }
                 .setNegativeButton("Cancelar") { dialog, _ ->
                     dialog.dismiss()
